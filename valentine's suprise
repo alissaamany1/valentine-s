@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Sayang</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+            position: relative;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            position: relative;
+            z-index: 2;
+        }
+        .heart {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            clip-path: polygon(50% 0%, 100% 35%, 80% 100%, 50% 75%, 20% 100%, 0% 35%);
+            animation: float 4s infinite ease-in-out;
+        }
+        .flower {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: pink;
+            border-radius: 50%;
+            animation: float 6s infinite ease-in-out;
+        }
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>For My Sayang ❤️</h1>
+        <p>Sayang, thank you for everything. You came into my life so unexpectedly, and now, I can't imagine a world without you. You don’t even realize how much your presence means to me. Every single moment with you is a blessing, and I am endlessly grateful for you.</p>
+        <p>Every day, I pray for your happiness, your health, and your future. No matter what dreams you choose to chase, I’ll always be here, supporting you every step of the way. Whatever you desire, I will do my best to find it. Whatever you crave, I will make sure you have it. You don’t need to repay me for any of it—just seeing your smile every day is more than enough.</p>
+        <p>I love you, Sayang, with all my heart. Always and forever. ❤️</p>
+    </div>
+</body>
+</html>
